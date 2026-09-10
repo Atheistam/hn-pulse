@@ -1,0 +1,16 @@
+The HN Pulse dataset (everything under data/, including snapshots.csv,
+observations.csv, stories.csv, manifest.json, atlas.json, history.json,
+alltime.json, latest_snapshot.json) is licensed under the
+
+    Creative Commons Attribution 4.0 International License (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt the material for any purpose, including
+commercially, as long as you give appropriate credit. Suggested attribution:
+
+    HN Pulse (2026). Hacker News front-page momentum dataset, snapshot
+    2026-09-10T14:00:52Z. https://atheistam.github.io/hn-pulse/
+
+Underlying story metadata originates from Hacker News (news.ycombinator.com) and
+belongs to its respective authors. The derived measurements (points gained per
+hour, observed spans, domain aggregates, turnover statistics) are ours.

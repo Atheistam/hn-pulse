@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HN Pulse — Hacker News signal radar</title>
+<!--OG:META-->
+<meta name="description" content="↑ Show HN: The same nine streaming subscriptions cost $702/year more than in 2021 +246 pts vs last snapshot (263 pts now). — +246 pts in 3h, 253 hiring jobs (57.7% remote), 10 Show...">
+<meta property="og:site_name" content="HN Pulse">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hnpulse-radar.surge.sh/">
+<meta property="og:title" content="HN Pulse: Another researcher says OpenAI trained on conversations, then claimed breakthrou">
+<meta property="og:description" content="↑ Show HN: The same nine streaming subscriptions cost $702/year more than in 2021 +246 pts vs last snapshot (263 pts now). — +246 pts in 3h, 253 hiring jobs (57.7% remote), 10 Show...">
+<meta property="og:image" content="https://hnpulse-radar.surge.sh/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HN Pulse: Another researcher says OpenAI trained on conversations, then claimed breakthrou">
+<meta name="twitter:description" content="↑ Show HN: The same nine streaming subscriptions cost $702/year more than in 2021 +246 pts vs last snapshot (263 pts now). — +246 pts in 3h, 253 hiring jobs (57.7% remote), 10 Show...">
+<!--/OG:META-->
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d1117'/%3E%3Cpath d='M4 17h6l3-8 6 14 3-6h6' stroke='%233fb950' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --border:#21262d; --text:#e6edf3;
+    --muted:#8b949e; --accent:#58a6ff; --green:#3fb950; --orange:#d29922;
+    --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1100px;margin:0 auto;padding:28px 20px 60px}
+  header{border-bottom:1px solid var(--border);padding-bottom:18px;margin-bottom:22px}
+  h1{font-size:26px;margin:0 0 4px;letter-spacing:-0.5px}
+  h1 .dot{color:var(--green)}
+  .sub{color:var(--muted);font-size:13.5px}
+  .badge{display:inline-block;background:#1f6feb22;color:var(--accent);
+         border:1px solid #1f6feb66;border-radius:20px;padding:1px 10px;
+         font-size:12px;margin-left:8px;vertical-align:middle;font-family:var(--mono)}
+  #brief{margin-top:12px;background:var(--panel);border:1px solid var(--border);
+         border-left:3px solid var(--green);border-radius:6px;padding:10px 14px;
+         font-size:14px;color:#c9d1d9}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px 18px}
+  .card h2{font-size:13px;text-transform:uppercase;letter-spacing:0.8px;
+           color:var(--muted);margin:0 0 12px;font-weight:600}
+  .row{display:flex;gap:10px;padding:7px 0;border-top:1px solid #1c2128}
+  .row:first-of-type{border-top:none}
+  .rank{color:var(--muted);font-family:var(--mono);font-size:12.5px;min-width:20px;
+        text-align:right;padding-top:1px}
+  .row .body{min-width:0;flex:1}
+  .row a{color:var(--text);text-decoration:none;font-size:14px;line-height:1.35}
+  .row a:hover{color:var(--accent);text-decoration:underline}
+  .meta{color:var(--muted);font-size:12px;margin-top:2px;font-family:var(--mono)}
+  .meta b{color:var(--green);font-weight:600}
+  .meta .up{color:var(--green)} .meta .down{color:#f85149}
+  .statline{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+  .stat{background:var(--bg);border:1px solid var(--border);border-radius:6px;
+        padding:8px 12px;text-align:center;min-width:88px}
+  .stat .n{font-size:22px;font-weight:700;font-family:var(--mono)}
+  .stat .n.g{color:var(--green)} .stat .n.b{color:var(--accent)}
+  .stat .l{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:0.6px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+  .chip{background:var(--bg);border:1px solid var(--border);border-radius:20px;
+        padding:2px 10px;font-size:12px;color:#c9d1d9}
+  .chip b{color:var(--accent);font-weight:600}
+  .lab{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:0.6px;margin-top:10px}
+  .empty{color:var(--muted);font-size:13px;padding:8px 0;font-style:italic}
+  .thread{display:inline-block;margin-top:10px;color:var(--accent);font-size:13px;text-decoration:none}
+  footer{color:var(--muted);font-size:12px;margin-top:30px;border-top:1px solid var(--border);padding-top:14px}
+  #share{margin-bottom:12px;font-size:13px}
+  #share a{color:var(--accent);text-decoration:none;margin-right:16px}
+  #share a:hover{text-decoration:underline}
+  #err{display:none;background:#f8514922;border:1px solid #f8514966;color:#ffa198;
+       border-radius:6px;padding:12px 14px;margin-bottom:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>HN Pulse<span class="dot">.</span><span class="badge" id="run">run —</span></h1>
+    <div class="sub" id="sub">Hacker News signal radar — live snapshot</div>
+    <div id="brief"></div>
+  </header>
+  <div id="err"></div>
+  <div class="grid" id="grid"></div>
+  <footer>
+    <div id="share">Share: <a id="shHN" href="#" target="_blank" rel="noopener">Hacker News</a><a id="shX" href="#" target="_blank" rel="noopener">X</a><a id="shTG" href="#" target="_blank" rel="noopener">Telegram</a></div>
+    <div id="atlaslink" style="margin-bottom:12px;font-size:13px">Data study: <a href="atlas.html" style="color:var(--accent);text-decoration:none">HN Pulse Atlas</a> — velocity by story age, hour-of-day, front-page turnover. <a href="atlas.json" style="color:var(--accent);text-decoration:none">JSON dataset</a>.</div>
+    Data: Hacker News Firebase + Algolia APIs (unofficial, no key). Snapshots append to a local
+    SQLite history every run — velocity &amp; mover deltas get sharper as history grows.
+    Auto-refresh every 2&nbsp;min.
+  </footer>
+</div>
+<script>
+function el(tag, cls, text){var n=document.createElement(tag);if(cls)n.className=cls;
+  if(text!==undefined)n.textContent=text;return n;}
+function card(title, fill){var c=el('div','card');c.appendChild(el('h2',null,title));fill(c);return c;}
+function listRow(rank,item,metaFn){var r=el('div','row');
+  r.appendChild(el('span','rank',rank));
+  var b=el('div','body');
+  var a=el('a');a.href=item.url;a.target='_blank';a.rel='noopener';a.textContent=item.title;
+  b.appendChild(a);var m=el('div','meta',metaFn(item));b.appendChild(m);
+  r.appendChild(b);return r;}
+function chip(text){var c=el('span','chip');c.textContent=text;return c;}
+function chipb(k,v){var c=el('span','chip');c.appendChild(el('b',null,k));
+  c.appendChild(document.createTextNode(' '+v));return c;}
+
+function fillHiring(h,wrap){
+  if(!h||!h.total){wrap.appendChild(el('div','empty','No hiring thread parsed yet.'));return;}
+  var sl=el('div','statline');
+  var mk=function(n,cls,l){var s=el('div','stat');var d=el('div','n '+cls);d.textContent=n;
+    s.appendChild(d);s.appendChild(el('div','l',l));return s;};
+  sl.appendChild(mk(h.total,'g','jobs'));sl.appendChild(mk(h.remote_pct+'%','b','remote'));
+  sl.appendChild(mk(h.salary_mentions,'b','salaries'));wrap.appendChild(sl);
+  wrap.appendChild(el('div','lab','Top companies'));
+  var c1=el('div','chips');(h.top_companies||[]).slice(0,6).forEach(function(p){c1.appendChild(chipb(p[0],p[1]));});
+  wrap.appendChild(c1);
+  wrap.appendChild(el('div','lab','Roles in demand'));
+  var c2=el('div','chips');(h.top_roles||[]).slice(0,8).forEach(function(p){c2.appendChild(chipb(p[0],p[1]));});
+  wrap.appendChild(c2);
+  wrap.appendChild(el('div','lab','Locations'));
+  var c3=el('div','chips');(h.top_locations||[]).slice(0,8).forEach(function(p){c3.appendChild(chipb(p[0],p[1]));});
+  wrap.appendChild(c3);
+  var a=el('a','thread','open thread \u2197');a.href=h.thread_url;a.target='_blank';a.rel='noopener';wrap.appendChild(a);
+}
+
+function build(r){
+  document.getElementById('run').textContent='run #'+r.run_id;
+  document.getElementById('sub').textContent='Hacker News signal radar \u2014 snapshot @ '+r.ts_human;
+  document.getElementById('brief').textContent=r.brief||'';
+  var g=document.getElementById('grid');g.innerHTML='';
+  wireShare(r);
+
+  var cTop=card('Fastest rising stories',function(w){
+    if(!r.top.length){w.appendChild(el('div','empty','No data.'));return;}
+    r.top.forEach(function(it,i){w.appendChild(listRow(i+1,it,function(x){
+      return 'pts '+(x.score)+'  \u00b7  '+x.velocity+' pts/h  \u00b7  '+x.age_h+'h old  \u00b7  by '+x.by;}));});});
+  var cTrend=card('Trends across snapshots',function(w){
+    fetch('/history.json',{cache:'no-store'}).then(function(resp){
+      if(!resp.ok)throw new Error('HTTP '+resp.status);
+      return resp.json();}).then(function(h){fillTrend(h,w);}).catch(function(e){
+      w.appendChild(el('div','empty','trends unavailable ('+e.message+')'));});});
+  var cShow=card('Show HN launches \u00b7 24h',function(w){
+    if(!r.show.length){w.appendChild(el('div','empty','No launches in window.'));return;}
+    r.show.forEach(function(it,i){w.appendChild(listRow(i+1,it,function(x){
+      return x.score+' pts  \u00b7  '+x.comments+' comments  \u00b7  by '+x.by;}));});});
+  var cAsk=card('Ask HN with traction',function(w){
+    if(!r.ask.length){w.appendChild(el('div','empty','No questions in window.'));return;}
+    r.ask.forEach(function(it,i){w.appendChild(listRow(i+1,it,function(x){
+      return x.score+' pts  \u00b7  '+x.comments+' comments  \u00b7  by '+x.by;}));});});
+  var cArc=card('Snapshot archive',function(w){
+    fetch('/history.json',{cache:'no-store'}).then(function(resp){
+      if(!resp.ok)throw new Error('HTTP '+resp.status);
+      return resp.json();}).then(function(h){fillArchive(h,w);}).catch(function(e){
+      w.appendChild(el('div','empty','archive unavailable ('+e.message+')'));});});
+  var cHir=card('Who is hiring',function(w){fillHiring(r.hiring,w);});
+  var cMov=card('Biggest movers vs last snapshot',function(w){
+    if(!r.movers.length){w.appendChild(el('div','empty','First snapshot \u2014 velocity baseline set. Next run unlocks deltas.'));return;}
+    r.movers.forEach(function(it,i){w.appendChild(listRow(i+1,it,function(x){
+      return 'delta +'+x.delta+' pts  \u00b7  now '+x.score;}));});});
+  var cAll=card('Biggest 3h gains ever caught',function(w){
+    fetch('/alltime.json',{cache:'no-store'}).then(function(resp){
+      if(!resp.ok)throw new Error('HTTP '+resp.status);
+      return resp.json();}).then(function(a){
+      if(!a.items||!a.items.length){w.appendChild(el('div','empty','No tracked gains yet.'));return;}
+      var m=el('div','meta');m.textContent='whole-history leaderboard \u00b7 '+a.snapshots+' snapshots \u00b7 since '+a.since;
+      w.appendChild(m);
+      a.items.forEach(function(it,i){w.appendChild(listRow(i+1,it,function(x){
+        return '+'+(x.delta)+' pts in one 3h window  \u00b7  peak '+x.score+'  \u00b7  '+x.span+'  \u00b7  seen '+x.seen+'x';}));});})
+      .catch(function(e){w.appendChild(el('div','empty','leaderboard unavailable ('+e.message+')'));});});
+  var cNew=card('Fresh on the front page',function(w){
+    if(!r.newcomers||!r.newcomers.length){w.appendChild(el('div','empty','No newcomers this window.'));return;}
+    r.newcomers.forEach(function(it,i){w.appendChild(listRow(i+1,it,function(x){
+      return 'not in any prior snapshot  \u00b7  '+x.score+' pts';}));});});
+
+  g.appendChild(cTop);g.appendChild(cTrend);
+  g.appendChild(cHir);
+  g.appendChild(cShow);g.appendChild(cMov);g.appendChild(cAll);g.appendChild(cNew);
+  g.appendChild(cAsk);g.appendChild(cArc);
+}
+
+function svgSpark(vals,w,h){
+  var n=vals.length;if(n<2)return '';
+  var mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals);
+  var rng=(mx-mn)||1,pad=2;
+  var pts=vals.map(function(v,i){
+    var x=pad+(n===1?0:i/(n-1))*(w-2*pad);
+    var y=h-pad-((v-mn)/rng)*(h-2*pad);
+    return x.toFixed(1)+','+y.toFixed(1);
+  }).join(' ');
+  return '<svg width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><polyline points="'+pts+'" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round"/></svg>';
+}
+
+function fillTrend(h,wrap){
+  if(!h||h.length<2){wrap.appendChild(el('div','empty','Trends need 2+ snapshots \u2014 appear from run #2.'));return;}
+  var series=[
+    ['top story pts',h.map(function(x){return x.top_score;})],
+    ['show hn / 24h',h.map(function(x){return x.show_count;})],
+    ['hiring jobs',h.map(function(x){return x.hiring_jobs;})],
+    ['hiring remote %',h.map(function(x){return x.hiring_remote;})]
+  ];
+  series.forEach(function(s){
+    var vals=s[1],mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals);
+    var r=el('div','row');
+    var b=el('div','body');
+    var m=el('div','meta');
+    m.appendChild(el('b',null,s[0]));
+    m.appendChild(document.createTextNode('  '+vals[0]+' \u2192 '+vals[vals.length-1]+'  (min '+mn+' / max '+mx+')'));
+    b.appendChild(m);
+    b.innerHTML+=svgSpark(vals,220,26);
+    r.appendChild(b);wrap.appendChild(r);
+  });
+}
+
+function fillArchive(h, wrap){
+  if(!h||!h.length){wrap.appendChild(el('div','empty','No prior snapshots yet.'));return;}
+  var ol=el('div');ol.style.maxHeight='260px';ol.style.overflowY='auto';
+  h.slice().reverse().forEach(function(x){
+    var r=el('div','row');
+    var t=(x.ts_human||'').slice(5,16)+'  run #'+x.run;
+    r.appendChild(el('span','rank',t));
+    var b=el('div','body');
+    var line=x.top_title?x.top_title+' ('+x.top_score+' pts)':'no top data';
+    b.appendChild(el('div',null,line));
+    var m=el('div','meta','hiring '+(x.hiring_jobs||0)+' jobs \u00b7 '+(x.hiring_remote||0)+'% remote \u00b7 '+(x.show_count||0)+' Show HN');
+    b.appendChild(m);r.appendChild(b);ol.appendChild(r);
+  });
+  wrap.appendChild(ol);
+}
+
+function wireShare(r){
+  var site='https://hnpulse-radar.surge.sh/';
+  var t=r.top&&r.top[0]?r.top[0]:null;
+  var text=t?('HN Pulse: '+t.title+' ('+t.score+' pts, +'+(r.movers&&r.movers[0]?r.movers[0].delta:0)+'/3h)'):'HN Pulse — Hacker News signal radar';
+  var hn='https://news.ycombinator.com/submitlink?u='+encodeURIComponent(site)+'&t='+encodeURIComponent(t?t.title:'HN Pulse');
+  var x='https://twitter.com/intent/tweet?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(site);
+  var tg='https://t.me/share/url?url='+encodeURIComponent(site)+'&text='+encodeURIComponent(text);
+  document.getElementById('shHN').href=hn;
+  document.getElementById('shX').href=x;
+  document.getElementById('shTG').href=tg;
+}
+
+function load(){
+  fetch('/report.json',{cache:'no-store'}).then(function(resp){
+    if(!resp.ok)throw new Error('HTTP '+resp.status);
+    return resp.json();}).then(build).catch(function(e){
+    var x=document.getElementById('err');x.style.display='block';
+    x.textContent='Cannot reach report.json ('+e.message+'). Run: bash run.sh';
+  });
+}
+load();setInterval(load,120000);
+</script>
+</body>
+</html>

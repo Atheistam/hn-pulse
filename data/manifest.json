@@ -1,0 +1,44 @@
+{
+  "name": "HN Pulse",
+  "generated_at": "2026-09-10T14:00:52Z",
+  "snapshots": 28,
+  "distinct_stories": 1274,
+  "story_observations": 4698,
+  "span_days": 6.75,
+  "first_snapshot_utc": "2026-09-03T20:05:39Z",
+  "last_snapshot_utc": "2026-09-10T14:00:52Z",
+  "live_dashboard": "https://hnpulse-radar.surge.sh/",
+  "dataset_home": "https://atheistam.github.io/hn-pulse/",
+  "license_data": "CC BY 4.0",
+  "license_code": "MIT",
+  "files": {
+    "data/snapshots.csv": {
+      "bytes": 1025,
+      "sha256": "89f2d06e5ba8779a2123cde9e26059c788fa2828ef0471e159bd07a4cdea064a"
+    },
+    "data/observations.csv": {
+      "bytes": 948398,
+      "sha256": "52da18a5ae357a3a66f6891f452f0233d734e77e350d33b41ff70e68d2890189"
+    },
+    "data/stories.csv": {
+      "bytes": 295568,
+      "sha256": "ada780d47f00af8a7c730d7d770738ddd288b53324aefe49902fa98c49e9ddda"
+    },
+    "data/atlas.json": {
+      "bytes": 10999,
+      "sha256": "4b9fde058d1577f610c54b4139690bce9d8e99f9a7310bd14e964d690055a89c"
+    },
+    "data/history.json": {
+      "bytes": 6400,
+      "sha256": "e51abdbbd8254c9c5a0c26ca2bf73ba2e3bd3104a03219857aba359ab8fea39b"
+    },
+    "data/alltime.json": {
+      "bytes": 2793,
+      "sha256": "5c3901e08d518e371982aca3804b4b8e8ab2df82b9971cf9cad92acc1cc7155d"
+    },
+    "data/latest_snapshot.json": {
+      "bytes": 10205,
+      "sha256": "37facc724b704dd31c31fd73cf10a46d3412ccd03c98dbde3c834a2feae0737a"
+    }
+  }
+}

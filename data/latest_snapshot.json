@@ -1,0 +1,450 @@
+{
+ "ts": 1789048852,
+ "ts_human": "2026-09-10 16:00:52 CEST",
+ "run_id": 28,
+ "brief": "↑ Show HN: The same nine streaming subscriptions cost $702/year more than in 2021 +246 pts vs last snapshot (263 pts now).",
+ "top": [
+  {
+   "id": 49643112,
+   "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+   "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+   "score": 86,
+   "by": "ColinWright",
+   "velocity": 96.2,
+   "age_h": 0.9
+  },
+  {
+   "id": 49639090,
+   "title": "DeepSeek v4.1 Flash",
+   "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+   "score": 625,
+   "by": "Liwink",
+   "velocity": 79.8,
+   "age_h": 7.8
+  },
+  {
+   "id": 49641215,
+   "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
+   "url": "https://honestlyranked.com/guides/streaming-price-increases/",
+   "score": 263,
+   "by": "honestlyranked",
+   "velocity": 69.6,
+   "age_h": 3.8
+  },
+  {
+   "id": 49630931,
+   "title": "iPhone Duo",
+   "url": "https://www.apple.com/iphone-duo/",
+   "score": 1286,
+   "by": "thecosmicfrog",
+   "velocity": 65.1,
+   "age_h": 19.8
+  },
+  {
+   "id": 49643556,
+   "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+   "url": "https://news.ycombinator.com/item?id=49643556",
+   "score": 24,
+   "by": "jacquesm",
+   "velocity": 48.0,
+   "age_h": 0.5
+  },
+  {
+   "id": 49626190,
+   "title": "Shopify acquires Tailwind",
+   "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+   "score": 1090,
+   "by": "EdwinHoksberg",
+   "velocity": 44.4,
+   "age_h": 24.6
+  },
+  {
+   "id": 49642531,
+   "title": "List of references on Sony websites to players \"owning\" their digital games",
+   "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+   "score": 72,
+   "by": "haunter",
+   "velocity": 42.0,
+   "age_h": 1.7
+  },
+  {
+   "id": 49623754,
+   "title": "Claude, change the “Add to Cart” button to blue",
+   "url": "https://opusfived.dev/",
+   "score": 1137,
+   "by": "matthieu_bl",
+   "velocity": 40.1,
+   "age_h": 28.4
+  },
+  {
+   "id": 49637385,
+   "title": "Show HN: What if the speed of light was 5 km/h?",
+   "url": "https://rivendell.dmitrybrant.com/relativity/",
+   "score": 467,
+   "by": "dmitrybrant",
+   "velocity": 38.8,
+   "age_h": 12.0
+  },
+  {
+   "id": 49640646,
+   "title": "What algorithm did Windows XP use to choose your initial user picture?",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+   "score": 188,
+   "by": "soheilpro",
+   "velocity": 38.0,
+   "age_h": 4.9
+  },
+  {
+   "id": 49605915,
+   "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+   "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+   "score": 2020,
+   "by": "procedurecall",
+   "velocity": 35.9,
+   "age_h": 56.3
+  },
+  {
+   "id": 49641401,
+   "title": "Thanks to Siri Recaps, your Apple Watch is always listening",
+   "url": "https://www.techradar.com/health-fitness/smartwatches/thanks-to-siri-recaps-your-apple-watch-is-always-listening-as-you-go-about-your-day-but-apple-may-be-risking-a-meta-glasses-style-backlash",
+   "score": 98,
+   "by": "geox",
+   "velocity": 28.7,
+   "age_h": 3.4
+  }
+ ],
+ "show": [
+  {
+   "id": 49637385,
+   "title": "Show HN: What if the speed of light was 5 km/h?",
+   "url": "https://rivendell.dmitrybrant.com/relativity/",
+   "score": 467,
+   "by": "dmitrybrant",
+   "comments": 197
+  },
+  {
+   "id": 49641215,
+   "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
+   "url": "https://honestlyranked.com/guides/streaming-price-increases/",
+   "score": 264,
+   "by": "honestlyranked",
+   "comments": 228
+  },
+  {
+   "id": 49630606,
+   "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+   "url": "https://github.com/OtoDock/oto-dock",
+   "score": 46,
+   "by": "dimitrismrtzs",
+   "comments": 12
+  },
+  {
+   "id": 49627646,
+   "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
+   "url": "https://github.com/Atomburstofficial/geiger",
+   "score": 45,
+   "by": "atomburst",
+   "comments": 23
+  },
+  {
+   "id": 49629747,
+   "title": "Show HN: Rdltr – Inbox zero for your reading list",
+   "url": "https://rdltr.app/",
+   "score": 23,
+   "by": "eduardosasso",
+   "comments": 17
+  },
+  {
+   "id": 49627872,
+   "title": "Show HN: Give your AI agent on-screen guides that show users where to click",
+   "url": "https://news.ycombinator.com/item?id=49627872",
+   "score": 18,
+   "by": "pancomplex",
+   "comments": 8
+  },
+  {
+   "id": 49634934,
+   "title": "Show HN: Hydra – Open-source agentic terminal with a PTY daemon",
+   "url": "https://github.com/hydraterm/hydra-local",
+   "score": 14,
+   "by": "hydraterms",
+   "comments": 8
+  },
+  {
+   "id": 49627357,
+   "title": "Show HN: Whetuu – An opinionated, zero-config status line and history picker",
+   "url": "https://github.com/yamafaktory/whetuu",
+   "score": 13,
+   "by": "yamafaktory",
+   "comments": 1
+  },
+  {
+   "id": 49628052,
+   "title": "Show HN: A FOSS Expense Splitter",
+   "url": "https://news.ycombinator.com/item?id=49628052",
+   "score": 6,
+   "by": "montenegrohugo",
+   "comments": 3
+  },
+  {
+   "id": 49639496,
+   "title": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+   "url": "https://botbin.io/?v=next",
+   "score": 6,
+   "by": "obilgic",
+   "comments": 2
+  }
+ ],
+ "ask": [
+  {
+   "id": 49627080,
+   "title": "YC created Flock 10 years ago",
+   "url": "https://news.ycombinator.com/item?id=49627080",
+   "score": 64,
+   "comments": 15,
+   "by": "YCmadeFlock"
+  },
+  {
+   "id": 49643556,
+   "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+   "url": "https://news.ycombinator.com/item?id=49643556",
+   "score": 27,
+   "comments": 4,
+   "by": "jacquesm"
+  },
+  {
+   "id": 49627178,
+   "title": "Reddit saves your keystrokes in text boxes",
+   "url": "https://news.ycombinator.com/item?id=49627178",
+   "score": 18,
+   "comments": 4,
+   "by": "thomasjeff1"
+  }
+ ],
+ "hiring": {
+  "thread_title": "Ask HN: Who is hiring? (September 2026)",
+  "thread_url": "https://news.ycombinator.com/item?id=49522897",
+  "total": 253,
+  "remote_pct": 57.7,
+  "salary_mentions": 94,
+  "top_companies": [
+   [
+    "Justworks",
+    2
+   ],
+   [
+    "Relevant Healthcare",
+    2
+   ],
+   [
+    "Modash.io",
+    1
+   ],
+   [
+    "Quill",
+    1
+   ],
+   [
+    "Open Education Applications / Neon",
+    1
+   ],
+   [
+    "We The Flywheel",
+    1
+   ],
+   [
+    "ORIGAMICS",
+    1
+   ],
+   [
+    "Snout  https://snout.com/",
+    1
+   ],
+   [
+    "Smarkets ( https://www.smarkets.com )",
+    1
+   ],
+   [
+    "Moyai Agent Reliability Engineering",
+    1
+   ],
+   [
+    "yeet",
+    1
+   ],
+   [
+    "OysterHR",
+    1
+   ]
+  ],
+  "top_roles": [
+   [
+    "engineer",
+    174
+   ],
+   [
+    "product",
+    89
+   ],
+   [
+    "platform",
+    86
+   ],
+   [
+    "data",
+    85
+   ],
+   [
+    "backend",
+    54
+   ],
+   [
+    "staff",
+    43
+   ],
+   [
+    "security",
+    38
+   ],
+   [
+    "research",
+    36
+   ],
+   [
+    "manager",
+    33
+   ],
+   [
+    "developer",
+    29
+   ],
+   [
+    "support",
+    22
+   ],
+   [
+    "growth",
+    19
+   ]
+  ],
+  "top_locations": [
+   [
+    "Remote",
+    144
+   ],
+   [
+    "US",
+    113
+   ],
+   [
+    "San Francisco",
+    29
+   ],
+   [
+    "NYC",
+    28
+   ],
+   [
+    "Europe",
+    20
+   ],
+   [
+    "EU",
+    17
+   ],
+   [
+    "Canada",
+    16
+   ],
+   [
+    "UK",
+    14
+   ],
+   [
+    "USA",
+    13
+   ],
+   [
+    "London",
+    11
+   ]
+  ]
+ },
+ "movers": [
+  {
+   "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
+   "url": "https://honestlyranked.com/guides/streaming-price-increases/",
+   "delta": 246,
+   "score": 263
+  },
+  {
+   "title": "DeepSeek v4.1 Flash",
+   "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+   "delta": 201,
+   "score": 625
+  },
+  {
+   "title": "What algorithm did Windows XP use to choose your initial user picture?",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+   "delta": 133,
+   "score": 188
+  },
+  {
+   "title": "Show HN: What if the speed of light was 5 km/h?",
+   "url": "https://rivendell.dmitrybrant.com/relativity/",
+   "delta": 102,
+   "score": 467
+  },
+  {
+   "title": "Thanks to Siri Recaps, your Apple Watch is always listening",
+   "url": "https://www.techradar.com/health-fitness/smartwatches/thanks-to-siri-recaps-your-apple-watch-is-always-listening-as-you-go-about-your-day-but-apple-may-be-risking-a-meta-glasses-style-backlash",
+   "delta": 93,
+   "score": 98
+  },
+  {
+   "title": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
+   "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
+   "delta": 84,
+   "score": 377
+  },
+  {
+   "title": "Stockfish 19",
+   "url": "https://stockfishchess.org/blog/2026/stockfish-19/",
+   "delta": 83,
+   "score": 139
+  },
+  {
+   "title": "I think I hate the internet",
+   "url": "https://strategictree.bearblog.dev/i-think-i-hate-the-internet/",
+   "delta": 79,
+   "score": 144
+  }
+ ],
+ "newcomers": [
+  {
+   "title": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls",
+   "url": "https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/",
+   "score": 102
+  },
+  {
+   "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+   "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+   "score": 86
+  },
+  {
+   "title": "List of references on Sony websites to players \"owning\" their digital games",
+   "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+   "score": 72
+  },
+  {
+   "title": "Mathematicians want proof OpenAI didn't use their work",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+   "score": 59
+  },
+  {
+   "title": "Object storage is all you need",
+   "url": "https://www.tigrisdata.com/blog/object-storage-all-need/",
+   "score": 42
+  }
+ ]
+}
