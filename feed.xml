@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HN Pulse — Hacker News front page, every 3 hours</title>
+  <subtitle>1274 distinct stories tracked across 28 snapshots (6.75 days).</subtitle>
+  <id>https://atheistam.github.io/hn-pulse/</id>
+  <link href="https://atheistam.github.io/hn-pulse/feed.xml" rel="self"/>
+  <link href="https://hnpulse-radar.surge.sh/"/>
+  <updated>2026-09-10T14:00:52Z</updated>
+  <author><name>HN Pulse</name></author>
+  <rights>Data: CC BY 4.0</rights>
+  <entry>
+    <title>#28 — Navier-Stokes – Tristan Buckmaster [pdf] (2020 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/28</id>
+    <updated>2026-09-10T14:00:52Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 2020 pts, 817 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.apple.com/iphone-duo/"&gt;iPhone Duo&lt;/a&gt; — 1286 pts, 2242 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://opusfived.dev/"&gt;Claude, change the “Add to Cart” button to blue&lt;/a&gt; — 1137 pts, 441 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify"&gt;Shopify acquires Tailwind&lt;/a&gt; — 1090 pts, 419 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1046 pts, 279 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#27 — Navier-Stokes – Tristan Buckmaster [pdf] (2012 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/27</id>
+    <updated>2026-09-10T11:00:27Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 2012 pts, 815 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.apple.com/iphone-duo/"&gt;iPhone Duo&lt;/a&gt; — 1224 pts, 2155 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://opusfived.dev/"&gt;Claude, change the “Add to Cart” button to blue&lt;/a&gt; — 1121 pts, 435 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1045 pts, 279 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify"&gt;Shopify acquires Tailwind&lt;/a&gt; — 1044 pts, 402 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#26 — Navier-Stokes – Tristan Buckmaster [pdf] (1968 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/26</id>
+    <updated>2026-09-09T20:02:11Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 1968 pts, 808 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"&gt;Mistral raises €3B&lt;/a&gt; — 840 pts, 591 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://opusfived.dev/"&gt;Claude, change the “Add to Cart” button to blue&lt;/a&gt; — 834 pts, 339 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify"&gt;Shopify acquires Tailwind&lt;/a&gt; — 691 pts, 290 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://ai.meta.com/muse/"&gt;Muse – Meta’s personal AI agent&lt;/a&gt; — 617 pts, 674 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#25 — Navier-Stokes – Tristan Buckmaster [pdf] (1942 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/25</id>
+    <updated>2026-09-09T17:00:38Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 1942 pts, 796 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt; — 1317 pts, 1070 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1041 pts, 278 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"&gt;Mistral raises €3B&lt;/a&gt; — 837 pts, 590 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://opusfived.dev/"&gt;Claude, change the "Add to Cart" button to blue&lt;/a&gt; — 648 pts, 255 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#24 — Navier-Stokes – Tristan Buckmaster [pdf] (1834 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/24</id>
+    <updated>2026-09-09T14:01:35Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 1834 pts, 756 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt; — 1301 pts, 1049 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1040 pts, 277 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=6IFVTcM28KA"&gt;216M Spy TVs – The LG Smart TV Problem [video]&lt;/a&gt; — 903 pts, 1002 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"&gt;Mistral raises €3B&lt;/a&gt; — 831 pts, 588 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#23 — Navier-Stokes – Tristan Buckmaster [pdf] (1719 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/23</id>
+    <updated>2026-09-09T11:00:46Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 1719 pts, 722 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt; — 1268 pts, 1017 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1037 pts, 274 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=6IFVTcM28KA"&gt;216M Spy TVs – The LG Smart TV Problem [video]&lt;/a&gt; — 895 pts, 1000 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"&gt;Mistral raises €3B&lt;/a&gt; — 824 pts, 584 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#22 — Keep Our Servers Running (1021 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/22</id>
+    <updated>2026-09-08T20:00:21Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1021 pts, 266 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=6IFVTcM28KA"&gt;216M Spy TVs – The LG Smart TV Problem [video]&lt;/a&gt; — 853 pts, 970 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"&gt;Mistral raises €3B&lt;/a&gt; — 781 pts, 555 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt; — 710 pts, 517 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 696 pts, 346 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#21 — Keep Our Servers Running (1012 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/21</id>
+    <updated>2026-09-08T17:01:14Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1012 pts, 265 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=6IFVTcM28KA"&gt;216M Spy TVs – The LG Smart TV Problem [video]&lt;/a&gt; — 831 pts, 953 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"&gt;Your intellectual fly is open when you use an LLM to author a post (2025)&lt;/a&gt; — 723 pts, 432 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"&gt;Mistral raises €3B&lt;/a&gt; — 720 pts, 520 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://manualdousuario.net/en/libreoffice-download-record-no-ai/"&gt;LibreOffice breaks download records after declaring it has no AI features&lt;/a&gt; — 559 pts, 183 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#20 — Discovery of a new OpenAI agent message board (2290 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/20</id>
+    <updated>2026-09-08T14:00:43Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2290 pts, 1594 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2267 pts, 2069 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 1006 pts, 262 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=6IFVTcM28KA"&gt;216M Spy TVs – The LG Smart TV Problem [video]&lt;/a&gt; — 803 pts, 940 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"&gt;Your intellectual fly is open when you use an LLM to author a post (2025)&lt;/a&gt; — 723 pts, 431 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#19 — Discovery of a new OpenAI agent message board (2289 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/19</id>
+    <updated>2026-09-08T11:00:15Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2289 pts, 1594 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2266 pts, 2069 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 993 pts, 257 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=6IFVTcM28KA"&gt;216M Spy TVs – The LG Smart TV Problem [video]&lt;/a&gt; — 773 pts, 919 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"&gt;Your intellectual fly is open when you use an LLM to author a post (2025)&lt;/a&gt; — 722 pts, 431 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#18 — Discovery of a new OpenAI agent message board (2285 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/18</id>
+    <updated>2026-09-07T20:00:57Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2285 pts, 1588 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2260 pts, 2069 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2220 pts, 539 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"&gt;Nitter and XCancel resume service after legal advice&lt;/a&gt; — 884 pts, 376 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"&gt;Keep Our Servers Running&lt;/a&gt; — 884 pts, 219 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#17 — Discovery of a new OpenAI agent message board (2284 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/17</id>
+    <updated>2026-09-07T17:00:27Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2284 pts, 1587 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2257 pts, 2067 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2220 pts, 539 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"&gt;Nitter and XCancel resume service after legal advice&lt;/a&gt; — 867 pts, 367 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html"&gt;LG smart TVs caught logging audio with screen off and snooping on local devices&lt;/a&gt; — 865 pts, 428 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#16 — Discovery of a new OpenAI agent message board (2279 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/16</id>
+    <updated>2026-09-07T14:02:12Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2279 pts, 1584 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2254 pts, 2067 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2219 pts, 539 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"&gt;Nitter and XCancel resume service after legal advice&lt;/a&gt; — 821 pts, 352 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/cve-2026-85046"&gt;Actively exploited sandbox RCE in all Chromium versions&lt;/a&gt; — 799 pts, 502 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#15 — Discovery of a new OpenAI agent message board (2276 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/15</id>
+    <updated>2026-09-07T11:00:46Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2276 pts, 1584 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2253 pts, 2063 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2217 pts, 538 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/cve-2026-85046"&gt;Actively exploited sandbox RCE in all Chromium versions&lt;/a&gt; — 798 pts, 502 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem"&gt;Formalizing Fermat's Last Theorem&lt;/a&gt; — 764 pts, 507 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>#14 — Discovery of a new OpenAI agent message board (2257 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/14</id>
+    <updated>2026-09-06T20:00:28Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2257 pts, 1574 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2244 pts, 2053 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2210 pts, 538 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://beige.party/@intransitivelie/117057396732763183"&gt;QBittorrent breaks out of sandbox to commit crimes&lt;/a&gt; — 1141 pts, 229 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/cve-2026-85046"&gt;Actively exploited sandbox RCE in all Chromium versions&lt;/a&gt; — 790 pts, 484 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

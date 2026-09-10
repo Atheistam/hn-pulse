@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://atheistam.github.io/hn-pulse/sitemap.xml
