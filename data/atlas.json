@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-10 17:01 UTC",
+ "generated_utc": "2026-09-10 17:08 UTC",
  "snapshots": 29,
  "span_days": 6.9,
  "window": [
@@ -45,6 +45,13 @@
    "max_pts_h": 40.6
   }
  ],
+ "decay_fit": {
+  "exponent": -1.066,
+  "r2": 0.9901,
+  "buckets_fitted": 5,
+  "law": "power",
+  "note": "velocity ~ age^exponent. An exponent near -1 means a story's scoring rate is inversely proportional to its age, so its cumulative score grows like log(age) instead of decaying exponentially."
+ },
  "hour_velocity": [
   {
    "hour": 0,
@@ -191,6 +198,13 @@
    "frontpage_obs": 0
   }
  ],
+ "hour_coverage": {
+  "hours_covered": 4,
+  "hours_sampled_out_of": 24,
+  "claim_supported": false,
+  "claim_min_hours": 12,
+  "note": "Snapshots run on a fixed 3-hourly schedule, so hour-of-day is sampled, not complete. No hour-of-day claim is published until at least half the 24h cycle is observed."
+ },
  "domains": [
   {
    "domain": "github.com",
