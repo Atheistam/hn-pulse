@@ -1,53 +1,53 @@
 {
- "generated_utc": "2026-09-10 17:08 UTC",
- "snapshots": 29,
- "span_days": 6.9,
+ "generated_utc": "2026-09-10 20:02 UTC",
+ "snapshots": 30,
+ "span_days": 7.0,
  "window": [
   "2026-09-03 20:05 UTC",
-  "2026-09-10 17:00 UTC"
+  "2026-09-10 20:00 UTC"
  ],
- "distinct_stories_tracked": 1327,
- "mover_observations": 1638,
+ "distinct_stories_tracked": 1369,
+ "mover_observations": 1713,
  "age_velocity": [
   {
    "bucket": "3-6h",
-   "n": 144,
-   "median_pts_h": 12.8,
+   "n": 167,
+   "median_pts_h": 12.1,
    "p90_pts_h": 52.2,
    "max_pts_h": 165.0
   },
   {
    "bucket": "6-12h",
-   "n": 205,
+   "n": 214,
    "median_pts_h": 6.3,
    "p90_pts_h": 30.3,
    "max_pts_h": 218.3
   },
   {
    "bucket": "12-24h",
-   "n": 392,
+   "n": 402,
    "median_pts_h": 2.3,
-   "p90_pts_h": 13.9,
+   "p90_pts_h": 14.6,
    "max_pts_h": 83.4
   },
   {
    "bucket": "24-48h",
-   "n": 376,
+   "n": 392,
    "median_pts_h": 1.3,
    "p90_pts_h": 6.9,
    "max_pts_h": 38.2
   },
   {
    "bucket": ">48h",
-   "n": 521,
+   "n": 538,
    "median_pts_h": 0.7,
    "p90_pts_h": 6.6,
    "max_pts_h": 40.6
   }
  ],
  "decay_fit": {
-  "exponent": -1.066,
-  "r2": 0.9901,
+  "exponent": -1.05,
+  "r2": 0.9905,
   "buckets_fitted": 5,
   "law": "power",
   "note": "velocity ~ age^exponent. An exponent near -1 means a story's scoring rate is inversely proportional to its age, so its cumulative score grows like log(age) instead of decaying exponentially."
@@ -175,9 +175,9 @@
   },
   {
    "hour": 20,
-   "n": 149,
-   "median_pts_h": 8.9,
-   "frontpage_obs": 946
+   "n": 181,
+   "median_pts_h": 7.6,
+   "frontpage_obs": 1061
   },
   {
    "hour": 21,
@@ -208,26 +208,26 @@
  "domains": [
   {
    "domain": "github.com",
-   "stories": 45,
+   "stories": 46,
    "best": 1144,
    "title": "Audacity 4.0"
   },
   {
    "domain": "news.ycombinator.com (text post)",
    "stories": 28,
-   "best": 397,
-   "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
+   "best": 408,
+   "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting"
   },
   {
    "domain": "theguardian.com",
-   "stories": 21,
+   "stories": 22,
    "best": 195,
    "title": "US Military disables ad trackers on troops' phones"
   },
   {
    "domain": "twitter.com",
-   "stories": 16,
-   "best": 765,
+   "stories": 17,
+   "best": 868,
    "title": "DeepSeek v4.1 Flash"
   },
   {
@@ -279,21 +279,21 @@
    "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout"
   },
   {
+   "domain": "anthropic.com",
+   "stories": 6,
+   "best": 1412,
+   "title": "Claude Fable 5.1 and Claude Mythos 5.1"
+  },
+  {
    "domain": "ft.com",
    "stories": 6,
    "best": 90,
    "title": "'People are going to get screwed' Pennsylvania voters unite against data centres"
   },
   {
-   "domain": "anthropic.com",
-   "stories": 5,
-   "best": 1412,
-   "title": "Claude Fable 5.1 and Claude Mythos 5.1"
-  },
-  {
    "domain": "apple.com",
    "stories": 5,
-   "best": 1341,
+   "best": 1377,
    "title": "iPhone Duo"
   }
  ],
@@ -369,6 +369,16 @@
    "span_h": 68.9
   },
   {
+   "id": 49605915,
+   "n": 12,
+   "title": "Navier-Stokes \u2013 Tristan Buckmaster [pdf]",
+   "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+   "peak": 2025,
+   "first": "2026-09-08 11:00 UTC",
+   "last": "2026-09-10 20:00 UTC",
+   "span_h": 57.0
+  },
+  {
    "id": 49537553,
    "n": 12,
    "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
@@ -407,25 +417,9 @@
    "first": "2026-09-05 11:01 UTC",
    "last": "2026-09-07 20:00 UTC",
    "span_h": 57.0
-  },
-  {
-   "id": 49526453,
-   "n": 12,
-   "title": "The largest electric aircraft just flew [video]",
-   "url": "https://www.youtube.com/watch?v=nM86DBOqgPM",
-   "peak": 471,
-   "first": "2026-09-03 20:05 UTC",
-   "last": "2026-09-06 14:00 UTC",
-   "span_h": 65.9
   }
  ],
  "churn": [
-  {
-   "ts": "2026-09-07 20:00 UTC",
-   "size": 119,
-   "new": 24,
-   "kept": 95
-  },
   {
    "ts": "2026-09-08 11:00 UTC",
    "size": 119,
@@ -491,9 +485,15 @@
    "size": 119,
    "new": 44,
    "kept": 75
+  },
+  {
+   "ts": "2026-09-10 20:00 UTC",
+   "size": 119,
+   "new": 34,
+   "kept": 85
   }
  ],
- "median_new_per_snapshot": 23.0,
+ "median_new_per_snapshot": 24,
  "alltime_movers": [
   {
    "delta": 1478,
@@ -505,11 +505,11 @@
   },
   {
    "delta": 1023,
-   "score": 2024,
+   "score": 2025,
    "title": "Navier-Stokes \u2013 Tristan Buckmaster [pdf]",
    "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
    "span": "runs 22\u219223",
-   "seen": 11
+   "seen": 12
   },
   {
    "delta": 912,
@@ -521,11 +521,11 @@
   },
   {
    "delta": 850,
-   "score": 1341,
+   "score": 1377,
    "title": "iPhone Duo",
    "url": "https://www.apple.com/iphone-duo/",
    "span": "runs 26\u219227",
-   "seen": 4
+   "seen": 5
   },
   {
    "delta": 653,

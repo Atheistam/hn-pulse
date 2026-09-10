@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>HN Pulse — Hacker News front page, every 3 hours</title>
-  <subtitle>1327 distinct stories tracked across 29 snapshots (6.87 days).</subtitle>
+  <subtitle>1369 distinct stories tracked across 30 snapshots (7.0 days).</subtitle>
   <id>https://atheistam.github.io/hn-pulse/</id>
   <link href="https://atheistam.github.io/hn-pulse/feed.xml" rel="self"/>
   <link href="https://hnpulse-radar.surge.sh/"/>
-  <updated>2026-09-10T17:00:16Z</updated>
+  <updated>2026-09-10T20:00:43Z</updated>
   <author><name>HN Pulse</name></author>
   <rights>Data: CC BY 4.0</rights>
+  <entry>
+    <title>#30 — Navier-Stokes – Tristan Buckmaster [pdf] (2025 pts)</title>
+    <id>tag:hnpulse,2026:snapshot/30</id>
+    <updated>2026-09-10T20:00:43Z</updated>
+    <link href="https://hnpulse-radar.surge.sh/"/>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Navier-Stokes – Tristan Buckmaster [pdf]&lt;/a&gt; — 2025 pts, 818 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.apple.com/iphone-duo/"&gt;iPhone Duo&lt;/a&gt; — 1377 pts, 2390 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify"&gt;Shopify acquires Tailwind&lt;/a&gt; — 1115 pts, 437 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://twitter.com/deepseek_ai/status/2097930608790167907"&gt;DeepSeek v4.1 Flash&lt;/a&gt; — 868 pts, 493 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://ai.meta.com/muse/"&gt;Muse – Meta’s personal AI agent&lt;/a&gt; — 649 pts, 732 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>#29 — Navier-Stokes – Tristan Buckmaster [pdf] (2024 pts)</title>
     <id>tag:hnpulse,2026:snapshot/29</id>
@@ -105,12 +112,5 @@
     <updated>2026-09-07T14:02:12Z</updated>
     <link href="https://hnpulse-radar.surge.sh/"/>
     <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2279 pts, 1584 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2254 pts, 2067 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2219 pts, 539 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"&gt;Nitter and XCancel resume service after legal advice&lt;/a&gt; — 821 pts, 352 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/cve-2026-85046"&gt;Actively exploited sandbox RCE in all Chromium versions&lt;/a&gt; — 799 pts, 502 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>#15 — Discovery of a new OpenAI agent message board (2276 pts)</title>
-    <id>tag:hnpulse,2026:snapshot/15</id>
-    <updated>2026-09-07T11:00:46Z</updated>
-    <link href="https://hnpulse-radar.surge.sh/"/>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href="https://collusion.wiki/"&gt;Discovery of a new OpenAI agent message board&lt;/a&gt; — 2276 pts, 1584 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://openai.com/index/gpt-6-astra/"&gt;GPT-6 Astra&lt;/a&gt; — 2253 pts, 2063 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://neil.fraser.name/news/2026/09/03/"&gt;.name Termination&lt;/a&gt; — 2217 pts, 538 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://nvd.nist.gov/vuln/detail/cve-2026-85046"&gt;Actively exploited sandbox RCE in all Chromium versions&lt;/a&gt; — 798 pts, 502 comments&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem"&gt;Formalizing Fermat's Last Theorem&lt;/a&gt; — 764 pts, 507 comments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://atheistam.github.io/hn-pulse"&gt;Open dataset (CC BY 4.0)&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -7,8 +7,8 @@ not expose.
 
 * **Dataset home:** https://atheistam.github.io/hn-pulse/
 * **Live dashboard:** https://hnpulse-radar.surge.sh/
-* **Status:** 29 snapshots · 1327 distinct stories · 4861 story observations · 6.87 days of coverage
-* **Last snapshot:** 2026-09-10T17:00:16Z
+* **Status:** 30 snapshots · 1369 distinct stories · 5025 story observations · 7.0 days of coverage
+* **Last snapshot:** 2026-09-10T20:00:43Z
 * **License:** data CC BY 4.0 · code MIT
 
 ## Why this exists
@@ -23,9 +23,9 @@ captured continuously since 2026-09-03T20:05:39Z.
 
 | File | Rows | What it is |
 | --- | --- | --- |
-| `data/observations.csv` | 4861 | Raw long format: one row per story *per snapshot* (score, comments, list, age at capture). The source of everything else. |
-| `data/stories.csv` | 1327 | One row per distinct story: observed span, first/max score, **points gained**, **points per hour**, how many snapshots it survived. |
-| `data/snapshots.csv` | 29 | One row per capture: timestamp + counts per list (top / show / ask / hiring). |
+| `data/observations.csv` | 5025 | Raw long format: one row per story *per snapshot* (score, comments, list, age at capture). The source of everything else. |
+| `data/stories.csv` | 1369 | One row per distinct story: observed span, first/max score, **points gained**, **points per hour**, how many snapshots it survived. |
+| `data/snapshots.csv` | 30 | One row per capture: timestamp + counts per list (top / show / ask / hiring). |
 | `data/atlas.json` | — | Aggregate study: velocity by story age, by hour of day, domain leaderboard, staying power, front-page turnover. |
 | `data/manifest.json` | — | Counts, coverage window, per-file sha256 checksums, license info. |
 | `data/latest_snapshot.json` | — | The most recent snapshot, exactly as the dashboard renders it. |
@@ -42,10 +42,10 @@ hours, the field is left empty rather than faked.
 | --- | --- | --- | --- | --- |
 | [Discovery of a new OpenAI agent message board](https://collusion.wiki/) | collusion.wiki | +1965 | 20.47 | 17 |
 | [GPT-6 Astra](https://openai.com/index/gpt-6-astra/) | openai.com | +1905 | 16.72 | 20 |
-| [Navier-Stokes – Tristan Buckmaster [pdf]](https://cims.nyu.edu/~tristanb/statement.pdf) | cims.nyu.edu | +1744 | 32.3 | 11 |
+| [Navier-Stokes – Tristan Buckmaster [pdf]](https://cims.nyu.edu/~tristanb/statement.pdf) | cims.nyu.edu | +1745 | 30.61 | 12 |
 | [.name Termination](https://neil.fraser.name/news/2026/09/03/) | neil.fraser.name | +1263 | 13.17 | 18 |
-| [Tailwind Labs is joining Shopify](https://tailwindcss.com/blog/tailwind-is-joining-shopify) | tailwindcss.com | +1001 | 37.1 | 6 |
-| [iPhone Duo](https://www.apple.com/iphone-duo/) | apple.com | +967 | 46.12 | 4 |
+| [Tailwind Labs is joining Shopify](https://tailwindcss.com/blog/tailwind-is-joining-shopify) | tailwindcss.com | +1007 | 33.58 | 7 |
+| [iPhone Duo](https://www.apple.com/iphone-duo/) | apple.com | +1003 | 41.83 | 5 |
 | [Claude, change the "Add to Cart" button to blue](https://opusfived.dev/) | opusfived.dev | +945 | 35.03 | 6 |
 | [216M Spy TVs – The LG Smart TV Problem [video]](https://www.youtube.com/watch?v=6IFVTcM28KA) | youtube.com | +794 | 15.56 | 8 |
 | [Nitter is unarchived and will continue](https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3) | github.com | +698 | 29.07 | 5 |
@@ -65,7 +65,7 @@ print(df.nlargest(10, "points_gained")[["title", "points_gained", "points_per_ho
 * **The cadence is coarse.** Snapshots land in four UTC windows per day
   (11:00, 14:00, 17:00, 20:00 approx), so hour-of-day conclusions are sparse and
   biased towards those hours. Treat any hour-of-day claim as provisional.
-* Coverage starts 2026-09-03T20:05:39Z — currently 6.87 days. Stories that
+* Coverage starts 2026-09-03T20:05:39Z — currently 7.0 days. Stories that
   blew up and died between two captures are invisible; "points gained" is therefore
   a *lower bound*.
 * A story that appears zero times can't be measured, so the dataset is

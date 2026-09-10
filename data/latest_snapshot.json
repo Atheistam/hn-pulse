@@ -1,116 +1,116 @@
 {
- "ts": 1789059616,
- "ts_human": "2026-09-10 19:00:16 CEST",
- "run_id": 29,
- "brief": "↑ Tell HN: OpenAI keeps re-enabling the 'allow training' setting +339 pts vs last snapshot (363 pts now).",
+ "ts": 1789070443,
+ "ts_human": "2026-09-10 22:00:43 CEST",
+ "run_id": 30,
+ "brief": "↑ I have a theory that software drives people insane +236 pts vs last snapshot (255 pts now).",
  "top": [
   {
    "id": 49643982,
    "title": "Shopify moves back to Native from React Native",
    "url": "https://shopify.engineering/back-to-native",
-   "score": 392,
+   "score": 550,
    "by": "fnthawar2",
-   "velocity": 137.7,
-   "age_h": 2.8
+   "velocity": 94.0,
+   "age_h": 5.9
+  },
+  {
+   "id": 49643546,
+   "title": "Rust is tier-1 language at Microsoft",
+   "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+   "score": 481,
+   "by": "mmastrac",
+   "velocity": 75.7,
+   "age_h": 6.4
+  },
+  {
+   "id": 49646181,
+   "title": "I have a theory that software drives people insane",
+   "url": "https://graybeard.ing/software-drives-people-insane/",
+   "score": 255,
+   "by": "rglover",
+   "velocity": 67.4,
+   "age_h": 3.8
   },
   {
    "id": 49643556,
    "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
    "url": "https://news.ycombinator.com/item?id=49643556",
-   "score": 363,
+   "score": 408,
    "by": "jacquesm",
-   "velocity": 108.7,
-   "age_h": 3.3
-  },
-  {
-   "id": 49643546,
-   "title": "Rust Is Tier-1 Language at Microsoft",
-   "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
-   "score": 285,
-   "by": "mmastrac",
-   "velocity": 85.1,
-   "age_h": 3.4
+   "velocity": 64.3,
+   "age_h": 6.3
   },
   {
    "id": 49639090,
    "title": "DeepSeek v4.1 Flash",
    "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-   "score": 765,
+   "score": 868,
    "by": "Liwink",
-   "velocity": 70.7,
-   "age_h": 10.8
+   "velocity": 62.8,
+   "age_h": 13.8
   },
   {
    "id": 49630931,
    "title": "iPhone Duo",
    "url": "https://www.apple.com/iphone-duo/",
-   "score": 1341,
+   "score": 1377,
    "by": "thecosmicfrog",
-   "velocity": 59.0,
-   "age_h": 22.7
+   "velocity": 53.5,
+   "age_h": 25.8
   },
   {
    "id": 49645443,
    "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
    "url": "https://cognition.com/blog/swe-2",
-   "score": 76,
+   "score": 214,
    "by": "seelos",
-   "velocity": 50.4,
-   "age_h": 1.5
+   "velocity": 47.4,
+   "age_h": 4.5
   },
   {
    "id": 49642531,
    "title": "List of references on Sony websites to players \"owning\" their digital games",
    "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
-   "score": 222,
+   "score": 286,
    "by": "haunter",
-   "velocity": 47.2,
-   "age_h": 4.7
+   "velocity": 37.1,
+   "age_h": 7.7
   },
   {
    "id": 49626190,
    "title": "Shopify acquires Tailwind",
    "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-   "score": 1109,
+   "score": 1115,
    "by": "EdwinHoksberg",
-   "velocity": 40.3,
-   "age_h": 27.6
+   "velocity": 36.5,
+   "age_h": 30.6
   },
   {
-   "id": 49645763,
-   "title": "Neki by PlanetScale",
-   "url": "https://neki.dev/",
-   "score": 44,
-   "by": "handfuloflight",
-   "velocity": 36.6,
-   "age_h": 1.2
+   "id": 49645686,
+   "title": "Neki",
+   "url": "https://planetscale.com/blog/introducing-neki",
+   "score": 150,
+   "by": "simon_weber",
+   "velocity": 35.0,
+   "age_h": 4.3
   },
   {
-   "id": 49623754,
-   "title": "Claude, change the “Add to Cart” button to blue",
-   "url": "https://opusfived.dev/",
-   "score": 1148,
-   "by": "matthieu_bl",
-   "velocity": 36.6,
-   "age_h": 31.3
+   "id": 49645437,
+   "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+   "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
+   "score": 155,
+   "by": "gumby",
+   "velocity": 34.3,
+   "age_h": 4.5
   },
   {
-   "id": 49637385,
-   "title": "Show HN: What if the speed of light was 5 km/h?",
-   "url": "https://rivendell.dmitrybrant.com/relativity/",
-   "score": 530,
-   "by": "dmitrybrant",
-   "velocity": 35.2,
-   "age_h": 15.0
-  },
-  {
-   "id": 49605915,
-   "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
-   "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-   "score": 2024,
-   "by": "procedurecall",
-   "velocity": 34.1,
-   "age_h": 59.3
+   "id": 49648732,
+   "title": "Genuine Creativity Is Your New Moat (2026)",
+   "url": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
+   "score": 32,
+   "by": "virgil_disgr4ce",
+   "velocity": 33.6,
+   "age_h": 1.0
   }
  ],
  "show": [
@@ -118,33 +118,33 @@
    "id": 49637385,
    "title": "Show HN: What if the speed of light was 5 km/h?",
    "url": "https://rivendell.dmitrybrant.com/relativity/",
-   "score": 531,
+   "score": 556,
    "by": "dmitrybrant",
-   "comments": 224
-  },
-  {
-   "id": 49630606,
-   "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
-   "url": "https://github.com/OtoDock/oto-dock",
-   "score": 46,
-   "by": "dimitrismrtzs",
-   "comments": 12
+   "comments": 245
   },
   {
    "id": 49643992,
    "title": "Show HN: I couldn't afford interview prep, so I built a free alternative",
    "url": "https://learningto.co/",
-   "score": 35,
+   "score": 36,
    "by": "cdnsteve",
-   "comments": 41
+   "comments": 46
   },
   {
-   "id": 49629747,
-   "title": "Show HN: Rdltr – Inbox zero for your reading list",
-   "url": "https://rdltr.app/",
-   "score": 23,
-   "by": "eduardosasso",
-   "comments": 17
+   "id": 49644955,
+   "title": "Show HN: Syq – copy files between machines fast (better than rsync)",
+   "url": "https://greaber.github.io/syq/",
+   "score": 33,
+   "by": "greaber",
+   "comments": 38
+  },
+  {
+   "id": 49645803,
+   "title": "Show HN: MultiMatte, a Promptable Image Background Removal Model",
+   "url": "https://usefeyn.com/blog/multimatte/",
+   "score": 21,
+   "by": "snyy",
+   "comments": 4
   },
   {
    "id": 49634934,
@@ -155,12 +155,12 @@
    "comments": 8
   },
   {
-   "id": 49644955,
-   "title": "Show HN: Syq – copy files between machines fast (better than rsync)",
-   "url": "https://greaber.github.io/syq/",
-   "score": 8,
-   "by": "greaber",
-   "comments": 4
+   "id": 49646928,
+   "title": "Show HN: Open-source simulation testing infra for voice agents",
+   "url": "https://github.com/egma-ai/egma",
+   "score": 9,
+   "by": "Nischalj10",
+   "comments": 1
   },
   {
    "id": 49639496,
@@ -168,56 +168,64 @@
    "url": "https://botbin.io/?v=next",
    "score": 8,
    "by": "obilgic",
-   "comments": 3
+   "comments": 4
   },
   {
-   "id": 49637555,
-   "title": "Show HN: They chose your competitor. Find out why",
-   "url": "https://drop.space",
-   "score": 6,
-   "by": "zhangchen0411",
-   "comments": 2
+   "id": 49646392,
+   "title": "Show HN: I licensed $50k of stock market data to do analysis Claude can't",
+   "url": "https://www.athenic.com:443/",
+   "score": 7,
+   "by": "jaredzhao",
+   "comments": 8
   },
   {
-   "id": 49636147,
-   "title": "Show HN: EmbedFlow –> Upgrade embedding models without re-embedding your corpus",
-   "url": "https://github.com/arnsri33/embedflow",
-   "score": 6,
-   "by": "coolArnav",
-   "comments": 2
+   "id": 49648352,
+   "title": "Show HN: Two small Chrome extensions for Hebrew text and dates",
+   "url": "https://chaimsapps.com/",
+   "score": 7,
+   "by": "chaimtweiss",
+   "comments": 1
   },
   {
-   "id": 49643496,
-   "title": "Show HN: JavaScript grid and pivot library built for coding agents",
-   "url": "https://news.ycombinator.com/item?id=49643496",
-   "score": 6,
-   "by": "yonl",
-   "comments": 0
+   "id": 49644915,
+   "title": "Show HN: We served 5k dynamic websites from a 2-vCPU, 4 GB VPS",
+   "url": "https://github.com/Kooboo/Kooboo/blob/main/Docs/5000-sites-benchmark.md",
+   "score": 7,
+   "by": "zguoqi",
+   "comments": 1
   }
  ],
  "ask": [
   {
-   "id": 49645683,
-   "title": "Apple is no longer thinking different",
-   "url": "https://news.ycombinator.com/item?id=49645683",
-   "score": 15,
-   "comments": 22,
-   "by": "othmanosx"
+   "id": 49642314,
+   "title": "Google to discontinue allowing send as an external account in Jan. 2027",
+   "url": "https://news.ycombinator.com/item?id=49642314",
+   "score": 14,
+   "comments": 2,
+   "by": "AuthorizedCust"
   },
   {
    "id": 49643556,
    "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
    "url": "https://news.ycombinator.com/item?id=49643556",
-   "score": 363,
-   "comments": 142,
+   "score": 408,
+   "comments": 159,
    "by": "jacquesm"
+  },
+  {
+   "id": 49645683,
+   "title": "Apple is no longer thinking different",
+   "url": "https://news.ycombinator.com/item?id=49645683",
+   "score": 29,
+   "comments": 41,
+   "by": "othmanosx"
   }
  ],
  "hiring": {
   "thread_title": "Ask HN: Who is hiring? (September 2026)",
   "thread_url": "https://news.ycombinator.com/item?id=49522897",
-  "total": 254,
-  "remote_pct": 57.9,
+  "total": 253,
+  "remote_pct": 57.7,
   "salary_mentions": 94,
   "top_companies": [
    [
@@ -272,7 +280,7 @@
   "top_roles": [
    [
     "engineer",
-    175
+    174
    ],
    [
     "product",
@@ -322,11 +330,11 @@
   "top_locations": [
    [
     "Remote",
-    145
+    144
    ],
    [
     "US",
-    114
+    113
    ],
    [
     "San Francisco",
@@ -364,79 +372,79 @@
  },
  "movers": [
   {
-   "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-   "url": "https://news.ycombinator.com/item?id=49643556",
-   "delta": 339,
-   "score": 363
-  },
-  {
-   "title": "List of references on Sony websites to players \"owning\" their digital games",
-   "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
-   "delta": 150,
-   "score": 222
-  },
-  {
-   "title": "DeepSeek v4.1 Flash",
-   "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-   "delta": 140,
-   "score": 765
+   "title": "I have a theory that software drives people insane",
+   "url": "https://graybeard.ing/software-drives-people-insane/",
+   "delta": 236,
+   "score": 255
   },
   {
    "title": "More questions about whether researchers can trust OpenAI with unpublished math",
    "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-   "delta": 111,
-   "score": 116
+   "delta": 226,
+   "score": 342
   },
   {
-   "title": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls",
-   "url": "https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/",
-   "delta": 108,
-   "score": 210
+   "title": "Rust is tier-1 language at Microsoft",
+   "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+   "delta": 196,
+   "score": 481
   },
-  {
-   "title": "What algorithm did Windows XP use to choose your initial user picture?",
-   "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
-   "delta": 75,
-   "score": 263
-  },
-  {
-   "title": "Show HN: What if the speed of light was 5 km/h?",
-   "url": "https://rivendell.dmitrybrant.com/relativity/",
-   "delta": 63,
-   "score": 530
-  },
-  {
-   "title": "Stockfish 19",
-   "url": "https://stockfishchess.org/blog/2026/stockfish-19/",
-   "delta": 55,
-   "score": 194
-  }
- ],
- "newcomers": [
   {
    "title": "Shopify moves back to Native from React Native",
    "url": "https://shopify.engineering/back-to-native",
-   "score": 392
-  },
-  {
-   "title": "Rust Is Tier-1 Language at Microsoft",
-   "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
-   "score": 285
-  },
-  {
-   "title": "Amazon pilots ad services in ChatGPT",
-   "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
-   "score": 81
-  },
-  {
-   "title": "Bending Spoons buying Miro for $1.355B",
-   "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-miro",
-   "score": 80
+   "delta": 158,
+   "score": 550
   },
   {
    "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
    "url": "https://cognition.com/blog/swe-2",
-   "score": 76
+   "delta": 138,
+   "score": 214
+  },
+  {
+   "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+   "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
+   "delta": 125,
+   "score": 155
+  },
+  {
+   "title": "Neki",
+   "url": "https://planetscale.com/blog/introducing-neki",
+   "delta": 108,
+   "score": 150
+  },
+  {
+   "title": "DeepSeek v4.1 Flash",
+   "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+   "delta": 103,
+   "score": 868
+  }
+ ],
+ "newcomers": [
+  {
+   "title": "Forgejo <=16.0.3 Critical RCE",
+   "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+   "score": 85
+  },
+  {
+   "title": "Music Theory for the 21st-Century Classroom",
+   "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+   "score": 54
+  },
+  {
+   "title": "AI 2027 (2025)",
+   "url": "https://ai-2027.com",
+   "score": 42
+  },
+  {
+   "title": "JEP 544: Ahead-of-Time Code Compilation",
+   "url": "https://openjdk.org/jeps/544",
+   "score": 34
+  },
+  {
+   "title": "Genuine Creativity Is Your New Moat (2026)",
+   "url": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
+   "score": 32
   }
  ]
 }
