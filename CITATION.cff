@@ -4,13 +4,13 @@ message: "If you use this dataset, please cite it as below."
 type: dataset
 authors:
   - name: "HN Pulse"
-version: "2026-09-10T14:00:52Z"
+version: "2026-09-10T17:00:16Z"
 date-released: "2026-09-10"
 url: "https://atheistam.github.io/hn-pulse/"
 license: CC-BY-4.0
 abstract: >-
   Time-series snapshots of the Hacker News front page, Show HN, Ask HN and the
-  monthly hiring thread, captured every three hours. 28 snapshots,
-  1274 distinct stories, 4698 story observations
-  over 6.75 days. Includes derived momentum measurements (points per hour
+  monthly hiring thread, captured every three hours. 29 snapshots,
+  1327 distinct stories, 4861 story observations
+  over 6.87 days. Includes derived momentum measurements (points per hour
   observed, staying power, domain aggregates, front-page turnover).

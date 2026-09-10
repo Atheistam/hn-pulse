@@ -1,44 +1,44 @@
 {
   "name": "HN Pulse",
-  "generated_at": "2026-09-10T14:00:52Z",
-  "snapshots": 28,
-  "distinct_stories": 1274,
-  "story_observations": 4698,
-  "span_days": 6.75,
+  "generated_at": "2026-09-10T17:00:16Z",
+  "snapshots": 29,
+  "distinct_stories": 1327,
+  "story_observations": 4861,
+  "span_days": 6.87,
   "first_snapshot_utc": "2026-09-03T20:05:39Z",
-  "last_snapshot_utc": "2026-09-10T14:00:52Z",
+  "last_snapshot_utc": "2026-09-10T17:00:16Z",
   "live_dashboard": "https://hnpulse-radar.surge.sh/",
   "dataset_home": "https://atheistam.github.io/hn-pulse/",
   "license_data": "CC BY 4.0",
   "license_code": "MIT",
   "files": {
     "data/snapshots.csv": {
-      "bytes": 1025,
-      "sha256": "89f2d06e5ba8779a2123cde9e26059c788fa2828ef0471e159bd07a4cdea064a"
+      "bytes": 1060,
+      "sha256": "4eb76989b9972b959b0996262fc63a5f58c1e8990a0a34f348cad796e262d1c0"
     },
     "data/observations.csv": {
-      "bytes": 948398,
-      "sha256": "52da18a5ae357a3a66f6891f452f0233d734e77e350d33b41ff70e68d2890189"
+      "bytes": 981849,
+      "sha256": "887149053585dbc87605ce24ce747284a09e15de01b43c612b41ebc6c7101803"
     },
     "data/stories.csv": {
-      "bytes": 295568,
-      "sha256": "ada780d47f00af8a7c730d7d770738ddd288b53324aefe49902fa98c49e9ddda"
+      "bytes": 307924,
+      "sha256": "0526540a32c50dbd62bbba2b949571158bc10c68fbe334bc74aeb65bc1b8db39"
     },
     "data/atlas.json": {
-      "bytes": 10999,
-      "sha256": "4b9fde058d1577f610c54b4139690bce9d8e99f9a7310bd14e964d690055a89c"
+      "bytes": 10969,
+      "sha256": "122289b672134d92517c172010f040d09b78e59ba3c1f022eb2c80890962f167"
     },
     "data/history.json": {
-      "bytes": 6400,
-      "sha256": "e51abdbbd8254c9c5a0c26ca2bf73ba2e3bd3104a03219857aba359ab8fea39b"
+      "bytes": 6641,
+      "sha256": "6cff202812e71d107d9f91136666b1e31bf17e7076652db9b026d7f60cf87a4c"
     },
     "data/alltime.json": {
       "bytes": 2793,
-      "sha256": "5c3901e08d518e371982aca3804b4b8e8ab2df82b9971cf9cad92acc1cc7155d"
+      "sha256": "c062288a937edee55512ed8acc0646df440c3837f5b9c70ef29ebeb60cfde279"
     },
     "data/latest_snapshot.json": {
-      "bytes": 10205,
-      "sha256": "37facc724b704dd31c31fd73cf10a46d3412ccd03c98dbde3c834a2feae0737a"
+      "bytes": 9319,
+      "sha256": "868ab7fa6c8d61c759a7072c9c282e7357585f99f7ea886569d24043f654f93a"
     }
   }
 }

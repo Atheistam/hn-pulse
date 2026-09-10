@@ -1,45 +1,45 @@
 {
- "generated_utc": "2026-09-10 14:02 UTC",
- "snapshots": 28,
- "span_days": 6.7,
+ "generated_utc": "2026-09-10 17:01 UTC",
+ "snapshots": 29,
+ "span_days": 6.9,
  "window": [
   "2026-09-03 20:05 UTC",
-  "2026-09-10 14:00 UTC"
+  "2026-09-10 17:00 UTC"
  ],
- "distinct_stories_tracked": 1274,
- "mover_observations": 1572,
+ "distinct_stories_tracked": 1327,
+ "mover_observations": 1638,
  "age_velocity": [
   {
    "bucket": "3-6h",
-   "n": 139,
-   "median_pts_h": 12.6,
+   "n": 144,
+   "median_pts_h": 12.8,
    "p90_pts_h": 52.2,
    "max_pts_h": 165.0
   },
   {
    "bucket": "6-12h",
-   "n": 197,
+   "n": 205,
    "median_pts_h": 6.3,
-   "p90_pts_h": 29.6,
+   "p90_pts_h": 30.3,
    "max_pts_h": 218.3
   },
   {
    "bucket": "12-24h",
-   "n": 377,
+   "n": 392,
    "median_pts_h": 2.3,
    "p90_pts_h": 13.9,
    "max_pts_h": 83.4
   },
   {
    "bucket": "24-48h",
-   "n": 352,
-   "median_pts_h": 1.0,
-   "p90_pts_h": 6.7,
+   "n": 376,
+   "median_pts_h": 1.3,
+   "p90_pts_h": 6.9,
    "max_pts_h": 38.2
   },
   {
    "bucket": ">48h",
-   "n": 507,
+   "n": 521,
    "median_pts_h": 0.7,
    "p90_pts_h": 6.6,
    "max_pts_h": 40.6
@@ -150,9 +150,9 @@
   },
   {
    "hour": 17,
-   "n": 88,
-   "median_pts_h": 12.2,
-   "frontpage_obs": 711
+   "n": 101,
+   "median_pts_h": 12.3,
+   "frontpage_obs": 827
   },
   {
    "hour": 18,
@@ -194,13 +194,13 @@
  "domains": [
   {
    "domain": "github.com",
-   "stories": 43,
+   "stories": 45,
    "best": 1144,
    "title": "Audacity 4.0"
   },
   {
    "domain": "news.ycombinator.com (text post)",
-   "stories": 27,
+   "stories": 28,
    "best": 397,
    "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?"
   },
@@ -213,7 +213,7 @@
   {
    "domain": "twitter.com",
    "stories": 16,
-   "best": 625,
+   "best": 765,
    "title": "DeepSeek v4.1 Flash"
   },
   {
@@ -224,9 +224,15 @@
   },
   {
    "domain": "nytimes.com",
-   "stories": 10,
+   "stories": 11,
    "best": 469,
    "title": "Google avoids a breakup of its ad tech business"
+  },
+  {
+   "domain": "youtube.com",
+   "stories": 10,
+   "best": 903,
+   "title": "216M Spy TVs \u2013 The LG Smart TV Problem [video]"
   },
   {
    "domain": "en.wikipedia.org",
@@ -235,14 +241,8 @@
    "title": "Holden's Lightning Flight"
   },
   {
-   "domain": "youtube.com",
-   "stories": 9,
-   "best": 903,
-   "title": "216M Spy TVs \u2013 The LG Smart TV Problem [video]"
-  },
-  {
    "domain": "arxiv.org",
-   "stories": 8,
+   "stories": 9,
    "best": 390,
    "title": "LLMs as a Cognitive Virus"
   },
@@ -259,28 +259,28 @@
    "title": "Getting your hands dirty is good for you"
   },
   {
+   "domain": "reuters.com",
+   "stories": 7,
+   "best": 78,
+   "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout"
+  },
+  {
    "domain": "ft.com",
    "stories": 6,
    "best": 90,
    "title": "'People are going to get screwed' Pennsylvania voters unite against data centres"
   },
   {
-   "domain": "reuters.com",
-   "stories": 6,
-   "best": 78,
-   "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout"
+   "domain": "anthropic.com",
+   "stories": 5,
+   "best": 1412,
+   "title": "Claude Fable 5.1 and Claude Mythos 5.1"
   },
   {
    "domain": "apple.com",
    "stories": 5,
-   "best": 1286,
+   "best": 1341,
    "title": "iPhone Duo"
-  },
-  {
-   "domain": "wsj.com",
-   "stories": 5,
-   "best": 165,
-   "title": "South African diamond mines are closing due to weak sales and lab-grown stones"
   }
  ],
  "staying_power": [
@@ -407,12 +407,6 @@
  ],
  "churn": [
   {
-   "ts": "2026-09-07 17:00 UTC",
-   "size": 119,
-   "new": 11,
-   "kept": 108
-  },
-  {
    "ts": "2026-09-07 20:00 UTC",
    "size": 119,
    "new": 24,
@@ -477,9 +471,15 @@
    "size": 119,
    "new": 14,
    "kept": 105
+  },
+  {
+   "ts": "2026-09-10 17:00 UTC",
+   "size": 119,
+   "new": 44,
+   "kept": 75
   }
  ],
- "median_new_per_snapshot": 22,
+ "median_new_per_snapshot": 23.0,
  "alltime_movers": [
   {
    "delta": 1478,
@@ -491,11 +491,11 @@
   },
   {
    "delta": 1023,
-   "score": 2020,
+   "score": 2024,
    "title": "Navier-Stokes \u2013 Tristan Buckmaster [pdf]",
    "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
    "span": "runs 22\u219223",
-   "seen": 10
+   "seen": 11
   },
   {
    "delta": 912,
@@ -507,11 +507,11 @@
   },
   {
    "delta": 850,
-   "score": 1286,
+   "score": 1341,
    "title": "iPhone Duo",
    "url": "https://www.apple.com/iphone-duo/",
    "span": "runs 26\u219227",
-   "seen": 3
+   "seen": 4
   },
   {
    "delta": 653,
